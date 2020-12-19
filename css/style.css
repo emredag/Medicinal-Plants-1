@@ -1,0 +1,36 @@
+.container #info,#history,#getready,#source{
+    margin: 22px;
+    -webkit-text-stroke: 0.5px black;
+}
+
+#sifanedir{
+    display: block;
+    text-align: center;
+    border-bottom: 3px solid black;
+    margin-bottom: 30px;
+}
+
+div{
+    display: block;
+    line-height: 2;
+    margin-bottom: 60px;
+}
+
+.info-text{
+    text-align: justify;
+    text-indent: 35px;
+}
+
+#sourcelink{
+    color: darkred;
+    font-size: 20px;
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 5px;
+}
+
+#sourcelink:hover{
+    background: black;
+    color: white;
+    transition: all;
+}

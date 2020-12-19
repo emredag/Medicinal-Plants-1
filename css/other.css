@@ -1,0 +1,32 @@
+.all {
+    margin: 22px;
+}
+
+.bitki {
+    display: block;
+    text-align: center;
+    border-bottom: 3px solid black;
+    margin-bottom: 30px;
+}
+
+img {
+    width: 35%;
+    border-bottom: 5px solid black;
+    margin-bottom: 10px;
+}
+
+.image {
+    text-align: center;
+}
+
+.bilgi{
+    text-align: center;
+    font-size: larger;
+    color: black;
+    -webkit-text-stroke: 0.5px black;
+
+}
+
+b{
+    color: rgba(255, 255, 255, 0.781);
+}

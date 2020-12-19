@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Şifalı Bitkiler</title>
+    <link rel="stylesheet" href="/css/form.css" type="text/css">
+    <link rel="stylesheet" href="/css/main.css" type="text/css">
+
+</head>
+
+<body>
+
+    <div class="menu">
+        <ul>
+            <p id="baslik">ŞİFALI BİTKİLER</p>
+            <li><a href="/menu/uyelik.html" title="">Kayıt Ol!</a></li>
+            <li><a href="#" title="">BİTKİLER</a>
+                <ul>
+                    <li><a href="/menu/kusburnu.html" title="">Kuşburnu</a></li>
+                    <li><a href="/menu/uzumcekirdegi.html" title="">Üzüm Çekirdeği</a></li>
+                    <li><a href="/menu/seytanpencesi.html" title="">Şeytan Pençesi</a></li>
+                    <li><a href="/menu/yabanmersini.html" title="">Yaban Mersini</a></li>
+                    <li><a href="/menu/yesilcay.html" title="">Yeşil Çay</a></li>
+                    <li><a href="/menu/atkuyrugu.html" title="">At Kuyruğu</a></li>
+                    <li><a href="/menu/isirgan.html" title="">Isırgan</a></li>
+                </ul>
+            </li>
+            <li><a href="/index.html" title="">ANA SAYFA</a></li>
+        </ul>
+    </div>
+
+
+    <h1 id="kayitol">KAYIT OL!</h1>
+    <hr>
+    
+    <div id="bilgi">
+        Kayıt formuna hoşgeldiniz! Lütfen aşağıdaki bilgileri <u><b>eksiksiz</b></u> doldurunuz.
+    </div>
+    <hr>
+    <form action="#">
+
+        <fieldset>
+            <legend id="arkaplan" class="orta">Kişisel Bilgiler</legend>
+            <table class="center" width="350">
+                <tr>
+                    <td>Ad:</td>
+                    <td><input type="text" id="ad" name="ad" placeholder="Adınızı girin" required></td>
+                </tr>
+                <tr>
+                    <td>Soyad:</td>
+                    <td><input type="text" id="soyad" placeholder="Soyadınızı girin" name="soyad" required></td>
+                </tr>
+                <tr>
+                    <td>Yaş:</td>
+                    <td><input type="number" max="100" id="yas" name="yas" placeholder="Yaş" required></td>
+                </tr>
+                <tr>
+                    <td>Mail Adresi:</td>
+                    <td><input type="email" id="eposta" name="eposta" required></td>
+                </tr>
+                <tr>
+                    <td>Fotoğraf Ekle:</td>
+                    <td><input type="file" accept="image/png, image/jpeg" id="fotom" name="fotom" required></td>
+                </tr>
+            </table>
+        </fieldset>
+
+        <fieldset>
+            <legend id="arkaplan" class="orta">Diğer Bilgiler</legend>
+            <table class="center" width="350">
+
+                <tr>
+                    <td>Okuduğunuz Okullar:</td>
+                    <td><input type="text" placeholder="İlkokul" name="okul" required>
+                        <input type="text" placeholder="Lise" name="okul" required>
+                        <input type="text" placeholder="Üniversite" name="okul" required>
+                        <input type="text" placeholder="Varsa 2. Üniversite" name="okul">
+                    </td>
+                </tr>
+
+
+            </table>
+        </fieldset>
+
+
+
+        <fieldset class="orta">
+            <legend id="arkaplan">Sözleşme</legend>
+            <textarea name="sözlesme" id="sözlesme" cols="100" rows="8" rows="5" readonly cols="50">Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır. Beşyüz yıl boyunca varlığını sürdürmekle kalmamış, aynı zamanda pek değişmeden elektronik dizgiye de sıçramıştır. 1960'larda Lorem Ipsum pasajları da içeren Letraset yapraklarının yayınlanması ile ve yakın zamanda Aldus PageMaker gibi Lorem Ipsum sürümleri içeren masaüstü yayıncılık yazılımları ile popüler olmuştur.
+            </textarea>
+        </fieldset>
+
+        <fieldset class="orta">
+            <legend id="arkaplan">Mail Listesi</legend>
+            <input type="radio" name="liste" required>Mail listesine katılmak <b>istiyorum</b>.<br>
+            <input type="radio" name="liste" required>Mail listesine katılmak <b><u>istemiyorum</u></b>.
+        </fieldset>
+
+        <fieldset class="orta">
+            <legend id="arkaplan">Sözleşme Onay</legend>
+            <label><input type="checkbox" required>Yukarıdaki bilgilerin doğruluğunu kabul ediyorum ve sözleşmeyi
+                onaylıyorum.</label><br>
+            <input type="submit" value="Formu Gönder">
+            <input type="reset" value="Formu Temizle">
+        </fieldset>
+
+
+
+    </form>
+
+
+
+
+</body>
+
+</html>
